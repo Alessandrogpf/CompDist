@@ -10,4 +10,4 @@ $ pip install -r requirements.txt
 
 $ docker compose up
 
-$ python app.py
+$ python main.py

@@ -19,7 +19,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Variavel de ambieente
-ENV FLASK_APP=app.py
+ENV FLASK_APP=main.py
 ENV FLASK_ENV=development
 ENV FLASK_DEBUG=1
 

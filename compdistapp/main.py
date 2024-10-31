@@ -1,6 +1,6 @@
 import os
 from app import create_app, db
-from app.models.profile import Profile  # Importa o modelo para garantir que ele seja registrado
+from app.models.profile import Profile  
 
 app = create_app()
 
